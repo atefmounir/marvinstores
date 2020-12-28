@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f2ce317-c8b1-44d1-9020-1edb9b59813b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/functions/getAllProducts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/getAllProducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/getAllProducts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/products_context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/products_context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/products_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/products_reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/constants.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
       <updated>1608913307335</updated>
       <workItem from="1608913308647" duration="5340000" />
       <workItem from="1609157674350" duration="1788000" />
-      <workItem from="1609165781023" duration="6648000" />
+      <workItem from="1609165781023" duration="13350000" />
     </task>
     <servers />
   </component>
