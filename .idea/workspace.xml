@@ -2,80 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f2ce317-c8b1-44d1-9020-1edb9b59813b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/functions/hello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/getAllProducts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/react-ecommerce-project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/functions/hello/hello.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/netlify.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/_redirects" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/about.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/hero-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/hero-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/logo_m.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/AddToCart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/AmountButtons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/CarContent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/CartButtons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/CartColumns.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/CartItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/CartTotals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Contact.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/FeaturedProducts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Filters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/GridView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Hero.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ListView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Loading.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/PageHero.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Product.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ProductImages.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ProductList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Services.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Sidebar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Stars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/context/cart_context.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/context/filter_context.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/context/products_context.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/context/user_context.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/AboutPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/CartPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/CheckoutPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/ErrorPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/HomePage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/PrivateRoute.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/ProductsPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/SingleProductPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reducers/cart_reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reducers/filter_reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reducers/products_reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/utils/constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/utils/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +47,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608913307335</updated>
       <workItem from="1608913308647" duration="5340000" />
-      <workItem from="1609157674350" duration="696000" />
+      <workItem from="1609157674350" duration="1788000" />
+      <workItem from="1609165781023" duration="6648000" />
     </task>
     <servers />
   </component>
