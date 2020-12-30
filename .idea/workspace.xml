@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f2ce317-c8b1-44d1-9020-1edb9b59813b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/functions/getSingleProduct.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Error.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Error.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeaturedProducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeaturedProducts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Loading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/getSingleProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/getSingleProduct.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/products_context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/products_context.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/SingleProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SingleProductPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/products_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/products_reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/helpers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +49,9 @@
       <workItem from="1608913308647" duration="5340000" />
       <workItem from="1609157674350" duration="1788000" />
       <workItem from="1609165781023" duration="20740000" />
-      <workItem from="1609230137582" duration="20435000" />
+      <workItem from="1609230137582" duration="24965000" />
+      <workItem from="1609310154258" duration="3931000" />
+      <workItem from="1609316812353" duration="1503000" />
     </task>
     <servers />
   </component>

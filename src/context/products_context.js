@@ -44,13 +44,13 @@ export const ProductsProvider = ({ children }) => {
   const fetchSingleProduct =async (id)=>{
     dispatch({type:GET_SINGLE_PRODUCT_BEGIN})
     try {
-      const response = await fetch('/.netlify/functions/getSingleProduct',{
+      const response = await fetch(`/.netlify/functions/getSingleProduct/?id=${id}`,{
         method:'POST',
         headers:{
           'Content-Type':'application/json',
         },
         body:JSON.stringify({
-          productId:id
+          id:id
         })
       })
       const singleProduct=await response.json()
