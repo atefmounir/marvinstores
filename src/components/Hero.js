@@ -11,11 +11,11 @@ const Hero = () => {
     <Wrapper className="section-center">
       <article className="content">
         <h1>
-          select the best <br/>
+          Mienta Outlet <br/>
           for your home
         </h1>
         <p>
-          Built with the highest quality components, most of our products are also CE certified making them ideal for easy export to other countries. With over 25 years of manufacturing experience, quality is the foundation upon which our factory is built. Using only the best & most durable materials,
+          Built with the highest quality components, most of our products are also CE certified making them ideal for easy export to other countries. With over 25 years of manufacturing experience, quality is the foundation upon which our factory is built. Using only the best & most durable materials.
         </p>
         <Link to="/products" className="btn hero-btn">shop now</Link>
       </article>
