@@ -18,11 +18,11 @@ function wait(ms=0){
 }
 
 exports.handler=async(event)=>{
-  await wait(2000)
-
   try{
+    await wait(1000)
     const productId=event.queryStringParameters.id
     const body=JSON.parse(event.body)
+
 
     const product=await table.find(productId)
     const formattedProduct={
@@ -31,7 +31,7 @@ exports.handler=async(event)=>{
       description:product.fields.description,
       category:product.fields.type,
       featured:product.fields.featured,
-      image:product.fields.image,
+      images:product.fields.images,
       name:product.fields.name,
       price:product.fields.price,
       reviews:product.fields.reviews,
@@ -39,7 +39,7 @@ exports.handler=async(event)=>{
       stock:product.fields.stock,
     }
 
-    if(body){
+    if(event.body){
       return{
         statusCode:200,
         body:JSON.stringify(formattedProduct)

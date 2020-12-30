@@ -34,7 +34,6 @@ export const ProductsProvider = ({ children }) => {
     try {
       const response = await fetch('/.netlify/functions/getAllProducts')
       const products=await response.json()
-      console.log(products)
       dispatch({type:GET_PRODUCTS_SUCCESS,payload:products})
     }catch(err){
       dispatch({type:GET_PRODUCTS_ERROR})
@@ -54,7 +53,6 @@ export const ProductsProvider = ({ children }) => {
         })
       })
       const singleProduct=await response.json()
-      console.log(singleProduct)
       dispatch({type:GET_SINGLE_PRODUCT_SUCCESS,payload:singleProduct})
     }catch(err){
       dispatch({type:GET_SINGLE_PRODUCT_ERROR})
