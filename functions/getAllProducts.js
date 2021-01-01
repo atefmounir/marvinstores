@@ -15,7 +15,7 @@ exports.handler=async(event)=>{
   try {
     const products=await table.select().firstPage()
     const formattedProducts=products.map(product =>{
-      const {id,fields:{name,price,image:[{url}],company,description,featured,category}}=product
+      const {id,fields:{name,price,image:[{url}],company,description,featured,category,colors}}=product
 
       return{
         id,
@@ -25,7 +25,8 @@ exports.handler=async(event)=>{
         company,
         description,
         featured,
-        category
+        category,
+        colors
       }
     })
 

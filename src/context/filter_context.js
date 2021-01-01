@@ -11,7 +11,16 @@ const initialState = {
   all_products: [],
   grid_view:true,
   sort:'price-lowest',        //default value name takes from Sort component
-
+  filters:{
+    text: '',
+    company:'all',
+    category:'all',
+    min_price:0,
+    max_price:0,
+    price:0,
+    color:'all',
+    shipping:false,
+  },
 }
 
 const FilterContext = React.createContext()
@@ -26,9 +35,10 @@ export const FilterProvider = ({ children }) => {
     dispatch({type:LOAD_PRODUCTS,payload:products})
   },[products])
 
-  useEffect(()=>{                                              //to load products each time sort is selected and receive different products values
+  useEffect(()=>{                                              //to load products each time sort or filters is selected to render different products values
+    dispatch({type:FILTER_PRODUCTS})
     dispatch({type:SORT_PRODUCTS})
-  },[products,state.sort])
+  },[products,state.sort,state.filters])
 
   const setGridView=()=>{
     dispatch({type:SET_GRIDVIEW})
@@ -43,8 +53,33 @@ export const FilterProvider = ({ children }) => {
     dispatch({type:UPDATE_SORT,payload:value})
   }
 
+  const updateFilters=(event)=>{
+    let name=event.target.name
+    let value=event.target.value
+
+    if(name==='category'){
+      value=event.target.textContent
+    }
+    if(name==='color'){
+      value=event.target.dataset.color
+    }
+    if(name==='price'){
+      value=Number(value)
+    }
+    if(name==='shipping'){
+      value=event.target.checked
+    }
+
+    dispatch({type:UPDATE_FILTERS,payload:{name,value}})
+  }
+
+  const clearFilters=()=>{
+    dispatch({type:CLEAR_FILTERS})
+  }
+
+
   return (
-    <FilterContext.Provider value={{...state,setListView,setGridView,updateSort}}>
+    <FilterContext.Provider value={{...state,setListView,setGridView,updateSort,updateFilters,clearFilters}}>
       {children}
     </FilterContext.Provider>
   )

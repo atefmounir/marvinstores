@@ -36,6 +36,7 @@ exports.handler=async(event)=>{
       reviews:product.fields.reviews,
       stars:product.fields.stars,
       stock:product.fields.stock,
+      colors:product.fields.colors,
     }
 
     if(event.body){

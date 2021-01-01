@@ -5,16 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/getAllProducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/getAllProducts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/getSingleProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/getSingleProduct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GridView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GridView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ListView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProductList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddToCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddToCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/filter_context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/filter_context.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/products_context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/products_context.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProductsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductsPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/filter_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/filter_reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/products_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/products_reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/helpers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gatsby-master-pizza-project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -68,7 +63,7 @@
       <workItem from="1609165781023" duration="20740000" />
       <workItem from="1609230137582" duration="24965000" />
       <workItem from="1609310154258" duration="3931000" />
-      <workItem from="1609316812353" duration="44287000" />
+      <workItem from="1609316812353" duration="68134000" />
     </task>
     <servers />
   </component>
