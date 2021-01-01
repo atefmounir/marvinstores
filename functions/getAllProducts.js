@@ -13,19 +13,19 @@ const table =base.table(process.env.AIRTABLE_TABLE)
 
 exports.handler=async(event)=>{
   try {
-    const products=await table.select({}).firstPage()
+    const products=await table.select().firstPage()
     const formattedProducts=products.map(product =>{
-      const {id,fields:{name,price,image:[{url}],brand,description,featured,type}}=product
+      const {id,fields:{name,price,image:[{url}],company,description,featured,category}}=product
 
       return{
         id,
         name,
         price,
         image:url,
-        company:brand,
+        company,
         description,
         featured,
-        category:type
+        category
       }
     })
 

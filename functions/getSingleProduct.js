@@ -23,19 +23,18 @@ exports.handler=async(event)=>{
     const productId=event.queryStringParameters.id
     const body=JSON.parse(event.body)
 
-
     const product=await table.find(productId)
     const formattedProduct={
       id:product.id,
-      company:product.fields.brand,
+      company:product.fields.company,
       description:product.fields.description,
-      category:product.fields.type,
+      category:product.fields.category,
       featured:product.fields.featured,
       images:product.fields.images,
       name:product.fields.name,
       price:product.fields.price,
       reviews:product.fields.reviews,
-      stars:product.fields.rating,
+      stars:product.fields.stars,
       stock:product.fields.stock,
     }
 
