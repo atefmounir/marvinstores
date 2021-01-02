@@ -1,17 +1,17 @@
 import React from 'react'
 import { Route, Redirect } from 'react-router-dom'
-import { useUserContext } from '../context/user_context'
 
-const PrivateRoute = ({component:Component,...rest}) => {
-  const {myUser} = useUserContext()
+
+const PrivateRoute = ({children,...rest}) => {
+  const myUser = localStorage.getItem('user') ? JSON.parse(localStorage.getItem('user')) :null
 
   return (
-    <Route {...rest} render={props => (
-      myUser ? <Component {...props}/> : <Redirect to={{
-        pathname: "/",
-        state: {from: props.location}
-      }}/>
-    )}/>
+    <Route
+      {...rest}
+      render={() => {
+        return myUser ? children : <Redirect to='/'/>
+      }}
+    />
   )
 }
 
