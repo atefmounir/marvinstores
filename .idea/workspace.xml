@@ -3,16 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="3f2ce317-c8b1-44d1-9020-1edb9b59813b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddToCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddToCart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CarContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CartButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CartButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CartColumns.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CartColumns.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CartItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CartItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CartTotals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CartTotals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/cart_context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/cart_context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeaturedProducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeaturedProducts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductImages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductImages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/products_context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/products_context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/user_context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/user_context.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CartPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CartPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/cart_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/cart_reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PrivateRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PrivateRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SingleProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SingleProductPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/products_reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/products_reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +69,8 @@
       <workItem from="1609165781023" duration="20740000" />
       <workItem from="1609230137582" duration="24965000" />
       <workItem from="1609310154258" duration="3931000" />
-      <workItem from="1609316812353" duration="89138000" />
+      <workItem from="1609316812353" duration="92092000" />
+      <workItem from="1609581631806" duration="13716000" />
     </task>
     <servers />
   </component>
